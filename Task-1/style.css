@@ -1,0 +1,191 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    width: 100%;
+   min-height: 100vh;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(indian-railways-history.jpg) no-repeat;
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+nav{
+    display: flex;
+    background-color: rgb(36, 35, 35);
+    
+    
+}
+nav img{
+    width: 65px;
+    height: 52px;
+    margin-right: 15px;
+}
+nav {
+    padding-left: 80px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+   
+}
+h1{
+    font-size: 35px;
+    margin-top: 7px;
+    color: whitesmoke; 
+    font-weight: 700;
+    
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color:red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+} 
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ }
+ .text h1{
+     font-size: 55px;
+ }
+ .text p{
+    padding-top: 5px;
+     font-size: 14px;
+     color: wheat;
+ }
+ .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #f44336;
+    border: 1px solid #f44336;
+    border-radius: 1px;
+    padding: 12px 34px;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+    color: #fff;
+}
+/*------------------ train details ------------------*/
+.train{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 127px;
+    padding: 20px;
+    border: 2px solid gray;
+    margin-bottom: 50px;
+    
+}
+table{
+    
+    text-align: center;
+    width: 100%;
+}
+th{
+    font-size: larger;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(192, 27, 27);
+}
+.sno{
+    width: 10%;
+}
+.num{
+    width: 15%;
+}
+.name{
+    text-align: justify;
+    padding-left: 20px;
+    font-size: 20px;
+}
+table, tr, th, td{
+    border: 2px solid lightsalmon;
+    border-radius: 5px;
+   
+}
+td{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+td a:hover{
+    color: #FF4500;  
+}
+td:hover{
+    background-color: wheat;
+}
+.head{
+font-weight: 700;
+font-size: 40px;
+margin-bottom: 8.5px;
+color: red;
+
+}
+marquee{
+    animation-delay: 5s;
+ 
+}
+.table1{
+border-collapse: collapse;
+}
+.back
+{
+    width: 100%;
+    min-height: 100vh;
+     background:url(back.png) no-repeat;
+     background-position: center;
+     background-size: cover; 
+     position: relative;
+}
+.head1{
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.train1{
+    margin-top: 0;
+}
+td a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+   
+}
