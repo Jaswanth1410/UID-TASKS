@@ -372,12 +372,39 @@ td a:hover{
 
 /* ----------------------media-------------------------- */
 
-@media(max-width:724px) {
+@media(max-width:772px) {
 
     .nav-links ul li{
         display: none;
     }
     .header{
         padding-left: 50px;
+    }
+    .text h1{
+        font-size: 35px;
+     font-weight: 800;
+    }
+    .text p{
+        font-size: 18px;
+        color: rgb(221, 220, 219);
+    }
+    .about{
+        padding: 20px;   
+    }
+    .about h1{
+font-size: 35px;
+    }
+    .media{
+        display: none;
+    }
+    .about img{
+        display: none;
+        text-align: end;
+    }
+    .box{
+        width: 100%;
+        
+        /* padding-right: 50px; */
+        
     }
 }
