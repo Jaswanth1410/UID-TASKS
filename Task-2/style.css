@@ -369,3 +369,15 @@ td a:hover{
     width: 100%;
     padding: auto;
 }
+
+/* ----------------------media-------------------------- */
+
+@media(max-width:724px) {
+
+    .nav-links ul li{
+        display: none;
+    }
+    .header{
+        padding-left: 50px;
+    }
+}
