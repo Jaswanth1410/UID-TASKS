@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d1c5bc3da.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+    <style>
+        
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Maiandra GD';
+}
+a
+{
+    text-decoration: none;
+}
+.head {
+     width: 100%;
+     min-height: 20vh;
+     background: linear-gradient(rgba(68, 65, 65, 0.541),rgba(116, 112, 112, 0.438)),url(https://awesomedesktopwallpapers.files.wordpress.com/2010/08/12.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     
+}
+center p{
+      padding-top: 0;
+      color: khaki;
+      font-size: 15px;
+}
+.heading
+{
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 2px;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.heading:hover{
+    text-shadow: 0 0 5px #FF0000;
+}
+.navlinks{
+    background-color: rgb(36, 36, 36);
+    min-height: 50px;
+}
+.navlinks ul li{
+    display: inline-block; 
+    /* padding: 20px; */
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 2px solid rgb(255, 255, 255);
+}
+.navlinks ul li a{
+    color:rgba(255, 255, 255, 0.541);
+}
+.navlinks ul li:hover{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+.navlinks ul li a:hover{
+    color: tomato;
+}
+
+/* content */
+
+.content{
+    display: flex;
+}
+.content .c1{
+    max-width: 20%;
+    background-color: rgba(232, 235, 64, 0.733);
+}
+.container
+{
+    padding: 40px;
+    text-align: justify;
+}
+span{
+    color: red;
+}
+.c1 li{
+          padding: 10px;
+          text-align: center;
+          list-style-type: none;
+} 
+.c1 li a{
+    text-decoration: none;
+    color: tomato;
+    font-size: 22px;
+}
+.c1 li:hover{
+    background-color: tomato;
+}
+.c1 li a:hover
+{
+    color: whitesmoke;
+    text-shadow: 0 0 5px #000000;
+}
+.content .c2{
+    max-width: 50%;
+    background-color: rgba(146, 222, 228, 0.849);
+}
+.content .c3{
+    max-width: 30%;
+    background-color: rgba(248, 179, 99, 0.808);
+}
+.container h2{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+}
+.container h2:hover
+{
+    text-shadow: -1.4px 0 black, 0 1.4px black, 1.4px 0 black, 0 -1.4px black;
+}
+/* footer */
+.footer-area {
+	/*margin-top: 100px; */
+    width: 100%;
+	padding: 100px ;
+	padding-bottom: 50px;
+	background: #27c4c4cc;
+	background: -moz-linear-gradient(left,  #95c427 0%, #6085b2 100%);
+	background: -webkit-linear-gradient(left,  #95c427 0%, #6085b2 100%);
+	background: linear-gradient(to right,  #95c427 0%, #6085b2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2749c4', endColorstr='#6085b2',GradientType=1 );
+	color:#fff;
+	position:relative;
+  }
+  .foot1 {
+	width: 1200px;
+	margin: 0 auto;
+  }
+  .footer {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+  }
+  .single-footer {
+	width: 240px;
+  }
+  .single-footer:first-child {
+	width: 400px;
+  }
+  .single-footer h4 {
+	text-transform: capitalize;
+	font-size: 22px;
+	margin-bottom: 20px;
+	padding-left: 30px;
+  }
+  .ab1 h4{
+	padding-left: 0px;
+  }
+  .footer-social a {
+	color: #fff;
+	border: 1px solid #fff;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+	transition: 0.3s;
+  }
+  .footer-social a:hover{
+	  background: tomato;
+  }
+  .footer-social {
+	margin-top: 20px;
+  }
+  .footer li {
+	  color: tomato;
+  }
+  .single-footer ul {
+	list-style: none;
+  }
+  .single-footer ul li {
+	margin-bottom: 10px;
+	position: relative;
+	padding-left: 20px;
+  }
+  .single-footer ul li a {
+	color: rgb(133, 192, 226);
+	text-transform: capitalize;
+	text-decoration: none;
+  }
+  .single-footer ul li a i {
+	position: absolute;
+	left: 0;
+	top: 5px;
+  }
+  
+  .copy {
+	text-align: center;
+	text-transform: capitalize;
+	margin-top: 50px;
+  }
+    </style>
+</head>
+<body>
+    <section class="head">
+        <div class="heading">Hello World!</div>
+        <center><p>The world is not dangerous because of those who do harm but because of those <br>who look at it without doing anything.</p></center>
+        <nav class="navlinks">
+             <ul>
+                 <li><a href="">Home</a></li>
+                 <li><a href="">About</a></li>
+                 <li><a href="">India</a></li>
+                 <li><a href="">World</a></li>
+                 <li><a href="">contact us</a></li>
+             </ul>
+        </nav>
+    </section>
+    <section class="content">
+        <div class="container c1">
+            
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">India</a></li>
+            <li><a href="">World</a></li>
+            <li><a href="">contact us</a></li>
+        
+        </div>
+        <div id="top" class="container c2">
+            <h2>Hello <span>Indians!!</span></h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem et, quos qui deserunt aperiam atque voluptatibus numquam non voluptate suscipit vero nisi commodi autem facilis labore pariatur porro ducimus quisquam magni dignissimos, quia quaerat? Velit, ipsam ducimus. Tempore, a! Ab eius magnam, ex quod earum dolores aperiam porro tempora magni accusamus accusantium doloribus, voluptatum deserunt esse sapiente doloremque ullam quisquam possimus<br><br> alias cum ratione voluptate. Harum quam cupiditate quidem sequi accusantium maiores repellendus voluptate qui nisi eveniet et, neque ad quia quisquam! Omnis ducimus alias amet nihil, laboriosam sint magnam perspiciatis id ratione veritatis aspernatur repellat tenetur tempora eligendi cum eveniet cumque beatae ab incidunt in. Minima accusantium aspernatur sed quae quia id ab sapiente nemo repudiandae ratione! Accusamus beatae veritatis hic excepturi adipisci expedita pariatur alias labore porro? Odit odio repellendus corporis atque autem,<br><br> possimus sunt similique asperiores culpa id tenetur maxime repudiandae. Dolores optio officia quis iusto debitis sint doloremque tempore libero architecto. Necessitatibus, molestiae minus non ut cumque libero obcaecati earum facilis unde, aperiam iure consequuntur alias ipsum repellat deleniti. Nulla nihil quod mollitia eveniet, distinctio laborum rem temporibus officia beatae, cupiditate id autem consectetur hic, ratione nemo iste harum dolores ex magnam atque dolor impedit similique perspiciatis tempore! Dolorem nemo <br><br>fugiat sint quisquam, assumenda porro alias nam facilis deserunt laborum rerum magnam harum veniam, libero fuga omnis, sapiente in. Sed recusandae, maiores, alias ea veniam natus perspiciatis, suscipit itaque dignissimos repudiandae ducimus repellendus culpa ullam tempore! Temporibus, quibusdam sequi, laudantium quasi dolores harum architecto dicta tempora expedita alias nihil necessitatibus<br><br> iste vero unde accusantium recusandae reprehenderit cum ad tempore, dignissimos sunt minus? Obcaecati quia vitae ipsum alias recusandae suscipit exercitationem aut? Numquam aperiam a officia libero quibusdam omnis, doloremque ab corporis, exercitationem, unde vel. <br><br> possimus sunt similique asperiores culpa id tenetur maxime repudiandae. Dolores optio officia quis iusto debitis sint doloremque tempore libero architecto. Necessitatibus, molestiae minus non ut cumque libero obcaecati earum facilis unde, aperiam iure consequuntur alias ipsum repellat deleniti. Nulla nihil quod mollitia eveniet, distinctio laborum rem temporibus officia beatae, cupiditate id autem consectetur hic, ratione nemo iste harum dolores ex magnam atque dolor impedit similique perspiciatis tempore! Dolorem nemo <br><br>fugiat sint quisquam, assumenda porro alias nam facilis deserunt laborum rerum magnam harum veniam, libero fuga omnis, sapiente in. Sed recusandae, maiores, alias ea veniam natus perspiciatis, suscipit itaque dignissimos repudiandae ducimus repellendus culpa ullam tempore! Temporibus, quibusdam sequi, laudantium quasi dolores harum architecto dicta tempora expedita alias nihil necessitatibus<br><br> iste vero unde accusantium recusandae reprehenderit cum ad tempore, dignissimos sunt minus? Obcaecati quia vitae ipsum alias recusandae suscipit exercitationem aut? Numquam aperiam a officia libero quibusdam omnis, doloremque ab corporis, exercitationem, unde vel. <br>
+                <a href="#top">Back to top --> </a>
+            </p>
+        </div>
+        <div class="container c3">
+            <h2>About us </h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam excepturi nobis blanditiis fugiat a obcaecati dicta nostrum quidem, ullam inventore in quas saepe voluptate quam recusandae consequuntur? Dolorum fugit odio suscipit officia iusto ut mollitia eaque dignissimos veritatis maiores culpa alias porro similique illo reprehenderit, amet autem, a, veniam id quos ipsum quae nostrum! Modi nobis eius explicabo, quibusdam officiis quam sint nihil magnam incidunt itaque, officia, suscipit temporibus. Enim consequuntur possimus ratione repudiandae <br><br>dolores adipisci repellat nisi hic commodi deleniti nam laudantium eaque explicabo quaerat veniam eveniet, perferendis esse? Illum neque temporibus unde expedita labore reiciendis libero, quod rerum saepe dignissimos consequuntur ducimus corrupti pariatur laudantium sunt totam esse aut incidunt fugit tempore delectus porro ea. 
+                
+            </p>
+            <h2>Contact Us!</h2>
+            <p>
+                <li><a href="">facebook</a></li>
+                <li><a href="">email</a></li>
+                <li><a href="">twitter</a></li>
+                <li><a href="">Instragram</a></li>
+                <li><a href="">Linked In</a></li>
+            </p>
+        </div>
+    </section>
+    <section class="footer">
+        <footer class="footer-area" >
+            <div class="footer-wave-box">
+                <div class="footer-wave footer-animation"></div>
+            </div>
+            <div class="foot1">
+                <div class="footer">
+                    <div class="single-footer ab1" >
+                        <h4>about us</h4>
+                        <p>Our inspiration is to create a fun website that could help you view beaches with the help of sky box images. We've tried to bring beaches to you virtually.</p>
+                        <div class="footer-social">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="single-footer" >
+                        <h4>main menu</h4>
+                        <ul>
+                            <li><a href=""><i class="fas fa-chevron-right"></i> home</a></li>
+                            <li><a href=""><i class="fas fa-chevron-right"></i> about us</a></li>
+                            <li><a href=""><i class="fas fa-chevron-right"></i> Our work</a></li>
+                            <li><a href=""><i class="fas fa-chevron-right"></i> contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="single-footer" >
+                        <h4>quick links</h4>
+                        <ul>
+                            <li><a href=""><i class="fas fa-chevron-right"></i> privacy policy</a></li>
+                            <li><a href=""><i class="fas fa-chevron-right"></i> terms & conditions</a></li>
+                            <li><a href=""><i class="fas fa-chevron-right"></i> disclaimer</a></li>
+                        </ul>
+                    </div>
+                    <div class="single-footer" >
+                        <h4>contact us</h4>
+                        <ul>
+                            <li><a href=""><i class="fas fa-map-marker-alt"></i> Amrita College,Vengal District,Tamilnadu</a></li>
+                            <li><a href=""><i class="fas fa-mobile-alt"></i> +88 0123 456 789</a></li>
+                            <li><a href=""><i class="far fa-envelope"></i> info@demo.com</a></li>
+                            <li><a href=""><i class="fas fa-globe-europe"></i> www.demo.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copy" >
+                    <p>&copy; 2021 all rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+</body>
+</html>

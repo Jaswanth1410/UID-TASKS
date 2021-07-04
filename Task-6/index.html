@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Maiandra GD';
+        }
+        #back{
+            width: 100%;
+            min-height: 100vh;
+            background-image: linear-gradient(rgba(36, 32, 32, 0.568),rgba(82, 66, 66, 0.514)), url(https://lh3.googleusercontent.com/proxy/7EbwM1rNngwTnj2b4rDax4tXA1KyteIuNmgj_cDtAW5Xvig-XQsUTpPZ1uHk8E9JxVF8gI-a0AHD6Gw-_xdoJDK4QLeD2MhSb4P7QPULWd0a76E0oQqbmDOXHTiipOSObRe8EG1A);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        .head{
+            color: yellow;
+            font-weight: 600;
+            font-size: 40px;
+            text-align: center;
+            align-items: center;
+            padding-top: 50px;
+            padding-bottom: 30px;
+            text-shadow: 0 0 5px #FF0000;
+        }
+        #fname{
+            text-align: center;
+            color: tomato;
+            border: none;
+            width: 200px;
+            height: 22px;
+            padding: 9px;
+            border-radius: 12px;
+            margin-right: 5px;
+            background-color: rgba(0, 0, 0, 0.692);
+        }
+        #button{
+            width: 100px;
+            height: 38px;
+            text-align: center;
+            color: tomato;
+            border: none;
+            border-radius: 12px;
+            background-color: rgba(0, 0, 0, 0.671);
+            padding: 9px;
+            margin-left: 5px;
+        }
+        #button:hover{
+            background-color: white;
+        }
+        .is
+        {
+            color: whitesmoke;
+            font-size: 30px;
+            padding: 10px;
+            padding-bottom: 20px;
+            text-shadow: 0 0 5px #fbff00;
+        }
+        img{
+            box-shadow: 0 0 8px #ff6600;
+            padding: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        #click{
+             margin: 30px;
+             border: none;
+             border-radius: 10px;
+             background-color: rgb(0, 0, 0);
+             color: yellow;
+             font-size: 21px;
+             width: 300px;
+             min-height: 30px;
+             padding: 10px;
+             align-items: center;
+        }
+        #click:hover
+        {
+            background: tomato;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <section id="back">
+    <center><div class="head"> Hello <span id="name">World !!</span></div></center>
+    <center><input type="text" id="fname" placeholder="Enter Name"><input id="button" onclick="cname();" type="button" value="Enter"></center>
+    <center><div class="is">Image galary</div>
+    <div>
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg" width="100" height="100"  alt="" >
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG9ncmFwaHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" width="100" height="100" alt="">
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="https://www.nature.com/immersive/d41586-021-00095-y/assets/3TP4N718ac/2021-01-xx_jan-iom_tree-of-life_sh-1080x1440.jpeg" width="100" height="100" alt="">
+    </div>
+    </center>
+   
+      <center><input id="click" type="button" ondblclick="cback();" onclick="nback();" value="Double Click See the magic"></center>  
+    
+</section>
+    <script>
+        function cname()
+        {
+            var re = document.getElementById("fname").value;
+            document.getElementById("name").innerHTML = re + "!!";
+        }
+        function bigImg(x) {
+             x.style.height = "300px";
+             x.style.width = "300px";
+        }
+        function normalImg(x) {
+            x.style.height = "100px";
+            x.style.width = "100px";
+        }
+        function cback()
+        {
+            document.getElementById("back").style.backgroundImage = "url('https://s23527.pcdn.co/wp-content/uploads/2018/05/landscape-photographer1.jpg.optimal.jpg')";
+        }
+        function nback()
+        {
+            document.getElementById("back").style.backgroundImage = "url('https://images.iphonephotographyschool.com/22761/1120/Photo-Apps.jpg')";
+        }
+    </script>
+</body>
+</html>

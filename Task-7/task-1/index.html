@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUMSUM</title>
+    <style>
+        body{
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(rgba(29, 28, 28, 0.774),rgba(4,9,30,0.7)),url(https://previews.123rf.com/images/iunewind/iunewind1403/iunewind140300080/26576794-vector-number-background.jpg);
+        }
+        .head{
+            width: 600px;
+            text-align: center;
+            align-items: center;
+            font-size: 40px;
+            font-weight: 500;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: red;
+            transform: translateY(100px);
+            padding: 20px;
+            border: rgb(255, 25, 0) 2.5px solid;
+            border-radius: 5px;
+        }
+        input{
+           width: 100px;
+           height: 40px;
+           border: none;
+           font-size: 24px;
+           text-align: center;
+           color: crimson;
+           transform: translateY(170px);
+        }
+        #num
+        {
+            width: 280px;
+        }
+        #result{
+            max-width: 600px;
+            min-height: 40px;
+            padding: 15px;
+            transform: translateY(210px);
+            font-size: 27px;
+            color:rgb(255, 166, 0);
+            background-color: whitesmoke;
+            overflow-wrap: break-word;  
+      
+        }
+       #sub
+        {
+            width: 130px;
+            margin-left: 15px;
+            height: 45px;
+            border-radius: 15px;
+            font-size: 22px;
+        }
+        #sub:hover{
+            background-color: tomato;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <center><div class="head">Number Sum</div></center>
+    <center><input type="number" id="num" placeholder="Enter Number" min="0"> <input type="button" id="sub" onclick="add();" value="Submit"> </center>
+    <center><p id="result" >RESULT</p></center>
+    <script>
+        function add()
+        {
+        var n = parseInt(document.getElementById("num").value);
+        var s = 0,t=0;
+        for(var i =1;i<=n;i++)
+        {
+            t = t+i;
+            if (s==0)
+              s = s + i;
+            else
+            s = s + " + " + i;
+        }
+        document.getElementById("result").innerHTML = s + " = " + t ;
+
+    };
+    </script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Maiandra GD';
+}
+a
+{
+    text-decoration: none;
+}
+.head {
+     width: 100%;
+     min-height: 20vh;
+     background: linear-gradient(rgba(68, 65, 65, 0.541),rgba(116, 112, 112, 0.438)),url(https://awesomedesktopwallpapers.files.wordpress.com/2010/08/12.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     
+}
+center p{
+      padding-top: 0;
+      color: khaki;
+      font-size: 15px;
+}
+.heading
+{
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 2px;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.heading:hover{
+    text-shadow: 0 0 5px #FF0000;
+}
+.navlinks{
+    background-color: rgb(36, 36, 36);
+    min-height: 50px;
+}
+.navlinks ul li{
+    display: inline-block; 
+    /* padding: 20px; */
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 2px solid rgb(255, 255, 255);
+}
+.navlinks ul li a{
+    color:rgba(255, 255, 255, 0.541);
+}
+.navlinks ul li:hover{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+.navlinks ul li a:hover{
+    color: tomato;
+}
+
+/* content */
+
+.content{
+    display: flex;
+}
+.content .c1{
+    max-width: 20%;
+    background-color: rgba(232, 235, 64, 0.733);
+}
+.container
+{
+    padding: 40px;
+    text-align: justify;
+}
+span{
+    color: red;
+}
+.c1 li{
+          padding: 10px;
+          text-align: center;
+          list-style-type: none;
+} 
+.c1 li a{
+    text-decoration: none;
+    color: tomato;
+    font-size: 22px;
+}
+.c1 li:hover{
+    background-color: tomato;
+}
+.c1 li a:hover
+{
+    color: whitesmoke;
+    text-shadow: 0 0 5px #000000;
+}
+.content .c2{
+    max-width: 50%;
+    background-color: rgba(146, 222, 228, 0.849);
+}
+.content .c3{
+    max-width: 30%;
+    background-color: rgba(248, 179, 99, 0.808);
+}
+.container h2{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 15px;
+}
+.container h2:hover
+{
+    text-shadow: -1.4px 0 black, 0 1.4px black, 1.4px 0 black, 0 -1.4px black;
+}
+/* footer */
+.footer-area {
+	/*margin-top: 100px; */
+    width: 100%;
+	padding: 100px ;
+	padding-bottom: 50px;
+	background: #27c4c4cc;
+	background: -moz-linear-gradient(left,  #95c427 0%, #6085b2 100%);
+	background: -webkit-linear-gradient(left,  #95c427 0%, #6085b2 100%);
+	background: linear-gradient(to right,  #95c427 0%, #6085b2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2749c4', endColorstr='#6085b2',GradientType=1 );
+	color:#fff;
+	position:relative;
+  }
+  .foot1 {
+	width: 1200px;
+	margin: 0 auto;
+  }
+  .footer {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-direction: row;
+  }
+  .single-footer {
+	width: 240px;
+  }
+  .single-footer:first-child {
+	width: 400px;
+  }
+  .single-footer h4 {
+	text-transform: capitalize;
+	font-size: 22px;
+	margin-bottom: 20px;
+	padding-left: 30px;
+  }
+  .ab1 h4{
+	padding-left: 0px;
+  }
+  .footer-social a {
+	color: #fff;
+	border: 1px solid #fff;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+	transition: 0.3s;
+  }
+  .footer-social a:hover{
+	  background: tomato;
+  }
+  .footer-social {
+	margin-top: 20px;
+  }
+  .footer li {
+	  color: tomato;
+  }
+  .single-footer ul {
+	list-style: none;
+  }
+  .single-footer ul li {
+	margin-bottom: 10px;
+	position: relative;
+	padding-left: 20px;
+  }
+  .single-footer ul li a {
+	color: rgb(133, 192, 226);
+	text-transform: capitalize;
+	text-decoration: none;
+  }
+  .single-footer ul li a i {
+	position: absolute;
+	left: 0;
+	top: 5px;
+  }
+  
+  .copy {
+	text-align: center;
+	text-transform: capitalize;
+	margin-top: 50px;
+  }
