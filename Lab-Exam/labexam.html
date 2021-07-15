@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirupati</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="back">
+        <nav>
+            <div class="header"><img src="https://img.icons8.com/ios/40/ffffff/city-guide.png"/><a href="index.html">Temple Town</a></div>
+            
+            <div class="nav-links" id="navlinks">
+               <div class="btn"><i  class="fa fa-close" onclick="hidemenu()" ></i></div> 
+                   <ul>
+                       <li><a href="index.html"><i class="fa fa-home" ></i>Home</a></li>
+                       <li><a href="">Places<i class="fa fa-caret-square-o-down" ></i></a>
+                        <div class="sub-menu" onclick="show()" onclick="hide()" >
+                            <ul>
+                                <li><a href="#Tourist">Tourist places</a></li>
+                                <li><a href="#Hotels">Hotels</a></li>
+                            </ul>
+                        </div>
+                       </li>     
+                       
+                       <li><a href="contact1.html">Contact us</a></li>
+                   </ul>
+            </div>
+            <div class="btn btn1"><i  class="fa fa-bars" onclick="showmenu()"></i></div>
+        </nav>
+    </section>
+    <Section class="about" >
+        <div class="box1">
+            <h1>About <span>Tirupati</span></h1>
+            <p>Tirupati is one of the most important pilgrimage destination in India. The city is located in the southern Indian state of Andhra Pradesh at the foothills of the Eastern Ghats. The city is famous for the Sri Venkateshwara temple as draws thousands of tourists and devotees every year.<br><br>
+                The city of Tirupati seems to derive its name from the hallowed Tirumala hills which are allegedly the second oldest rock mountains in the world and find a mention in pre Christian Tamil religious scriptures.<br><br>
+                
+            There are many notable institutions located in the city such as Defense Research and Development Organization (DRDO), Indian Space Research Organization (ISRO), Indian Institute of Science (IIS), Indian Institute of Management (IIMB), National Aeronautics Laboratory (NAL) and National Law School.<br><br>
+
+            Tirupati – A Tourist’s Heaven<br>
+            <span>Tirupati- A Temple City</span>
+            <br><br>
+            The city, if history is to be believed, was an established centre of Vaishnavism, an ancient Hindu sect and the temple rites were formalized by the Vaishnavite saint Ramanujacharya in the 11th century AD and the city has stood the test of time despite the Muslim invasions of South India.
+        </div>
+        <img src="https://www.culturalindia.net/iliimages/Tirupati-Temple-ili-396-img-5.jpg" alt="">
+    </Section>
+
+    <section>
+        <div id="Tourist">
+            <h2>Tourist Places one Must Visit :</h2>
+            <ol>
+                <li>Sri Venkateswara Swamy Temple, Tirupati</li>
+                <li>Sri Govindaraja Swamy Temple, Tirupati</li>
+                <li>Srivari Padala Mandapam, Tirupati</li>
+                <li>Sri Padmavathi Ammavari Temple, Tirupati</li>
+                <li>Sri Kapliswaraswamy Temple, Tirupati</li>
+                <li>Srikalahasti Temple, Tirupati</li>
+                <li>Sri Venkateswara National Park, Tirupati</li>
+                <li>Deer Park, Tirupati</li>
+                <li> Talakona Waterfalls, Tirupati</li>
+                <li>Akasaganga Theertham, Tirupati</li>
+            </ol>
+        </div>
+        <div id="Hotels">
+            <h2>Famous Hotels u can stay :</h2>
+            <ul>
+                <li>Taj Tirupati, Tirupati</li>
+                <li>Minarva Grand, Tirupati</li>
+                <li>Fortune Select Grand Ridge, Tirupati</li>
+                <li>Hotel Bliss, Tirupati</li>
+                <li>The Bhishma Residency Tirupati</li>
+                <li>Trebo trend ssl Grand, Tirupati</li>
+                <li>Taj Tirupati, Tirupati</li>
+                <li>Minarva Grand, Tirupati</li>
+                <li>Fortune Select Grand Ridge, Tirupati</li>
+                <li>Hotel Bliss, Tirupati</li>
+            </ul>
+        </div>
+    </section>
+    <section class="con">
+        <h1>Contact us</h1>
+        <div id="con">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+        </div>
+        <p>
+            Copyright <i class="fa fa-copyright" ></i> 2021 Citytirupati.com Travel pte. Ltd. All rights reserved <br> Site Operator: Citytirupati.com Travel pte. Ltd.
+        </p>
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showmenu(){
+            navlinks.style.right = "0"
+        }
+        function hidemenu(){
+            navlinks.style.right = "-210px"
+        }
+    </script>
+</body>
+</html>
